@@ -1,0 +1,188 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Kullanici.master.cs" Inherits="agtabanli.Kullanici" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css_kullanici/header.css" rel="stylesheet" />
+    <link href="css_kullanici/navigate.css" rel="stylesheet" />
+    <link href="css_kullanici/sablon.css" rel="stylesheet" />
+    <link href="css_kullanici/aside.css" rel="stylesheet" />
+
+    
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="mainid" class="mainclass">
+            <header id="headerid" class="headerclass">
+                <table id="logotableid">
+                    <tr>
+                        <td id="logoid"><a href="anasayfa.aspx">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/resimler/logo.png" Width="250px" Height="125px" />
+                        </a>
+
+                        </td>
+                        <td id="baslikid">
+
+                            <asp:Label ID="Label1" runat="server" Text="STAR CAR"></asp:Label>
+
+                        </td>
+                        <td id="socialid">
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <nav id="navid" class="navclass">
+                <table id="navtableid" class="navtableclass">
+                    <tr>
+                        <td id="tdanasafaid"><a id="anasayfalinkid" href="anasayfa.aspx">Anasayfa</a></td>
+                        <td id="tdayinfirsatiid"><a id="ayinfirsatilinkid" href="kampanya.aspx">Ayın Fırsatları</a></td>
+                        <td id="tdiletisimid"><a id="iletisimlinkid" href="iletisim.aspx">İletişim</a></td>
+                        <td id="tdhakkimizdaid"><a id="hakkimizdalinkid" href="hakkimizda.aspx">Hakkımızda</a></td>
+                    </tr>
+                </table> 
+            </nav>
+            <%-- <div id="sliderid" class="sliderclass">
+            
+                </div>--%>
+            <div id="sectionid" class="sectionclass">
+                <div id="asideid" class="asideclass">
+                    <asp:Label ID="Label2" runat="server" Text="Marka"></asp:Label>
+                    <br />
+                    <br />
+                    <div id="markaid">
+                        <asp:DataList ID="DataList1" runat="server" Height="250px" Width="200px" OnSelectedIndexChanged="DataList1_SelectedIndexChanged">
+                            <ItemTemplate>
+                                <a href="search.aspx?arabaID=<%#Eval("markaID")%>">
+                                    <asp:Label ID="Label3" runat="server" Text='<%# Eval("marka") %>'></asp:Label></a>
+                            </ItemTemplate>
+                        </asp:DataList>
+                    </div>
+                    <br />
+                    <asp:Label ID="Label4" runat="server" Text="Seri"></asp:Label>
+                    <br />
+                    <br />
+                    <div id="modelid">
+                        <asp:DataList ID="DataList2" runat="server" Width="200px" Height="250px" OnSelectedIndexChanged="DataList2_SelectedIndexChanged">
+                            <ItemTemplate>
+                                 <a href="search.aspx?arabaID=<%#Eval("markaID")%>">
+                                    <asp:Label ID="Label3" runat="server" Text='<%# Eval("seri") %>'></asp:Label></a>
+                           
+                            </ItemTemplate>
+                        </asp:DataList>
+                    </div>
+
+                </div>
+                <article id="articleid" class="articleclass">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </article>
+
+            </div>
+
+            <footer id="footerid" class="footerclass">
+                <table id="footertbl">
+                    <tr>
+                        <td class="auto-style1" >
+                            <asp:Label ID="Label6" runat="server" Text="Star Car"></asp:Label>
+                        </td>
+
+                        <td >
+
+                            <asp:Label ID="Label8" runat="server" Text="Site Haritası"></asp:Label>
+
+                        </td>
+                         <td >
+
+                             <asp:Label ID="Label10" runat="server" Text="Sosyal Medya"></asp:Label>
+
+                             </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style1">
+                            <asp:Label ID="Label7" runat="server" Text="En uygun fiyatlı arabaların adresi"></asp:Label>
+                        </td>
+
+                        <td>
+
+                            <a id="anasayfalinkid0" href="anasayfa.aspx">Anasayfa</a></td>
+                           <td >
+                               <a href="https://tr.linkedin.com/">
+                               <asp:Label ID="Label11" runat="server" Text="Linkedin"></asp:Label>
+                                   </a>
+                             </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style1" rowspan="3">
+                            <a href="anasayfa.aspx">
+                            <asp:Image ID="Image2" runat="server" ImageUrl="~/resimler/logo.png" Width="200px" Height="100px" />
+                        </a>
+
+                        </td>
+
+                        <td>
+
+                            <a id="ayinfirsatilinkid0" href="kampanya.aspx">Ayın Fırsatları</a></td>
+                           <td >
+                               <a href="https://tr-tr.facebook.com/">
+                               <asp:Label ID="Label12" runat="server" Text="Facebook"></asp:Label>
+                                   </a>
+                             </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+
+                            <a id="iletisimlinkid0" href="iletisim.aspx">İletişim</a></td>
+                           <td >
+                               <a href="https://www.youtube.com/">
+                               <asp:Label ID="Label13" runat="server" Text="Youtube"></asp:Label>
+                                   </a>
+                             </td>
+                    </tr>
+                    <tr>
+
+                        <td >
+
+                            <a id="hakkimizdalinkid0" href="hakkimizda.aspx">Hakkımızda</a></td>
+                           <td >
+                               <a href="https://www.instagram.com/">
+                               <asp:Label ID="Label14" runat="server" Text="Instagram"></asp:Label>
+                                   </a>
+                             </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+
+                        <td c>
+
+                            &nbsp;</td>
+                           <td >
+
+                             </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="auto-style1">
+                            <asp:Label ID="Label9" runat="server" Text="Copyright © 2021 Ömer YILDIZ"></asp:Label>
+                        </td>
+
+                    </tr>
+                </table>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>

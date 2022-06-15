@@ -1,0 +1,56 @@
+﻿#tsrm {
+    height: 1025px;
+    overflow: auto;
+}
+
+#anasayfaid {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 750px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 7px;
+    margin-left:10px;
+       
+}
+#anasayfasablonid {
+    margin-top: 7px;
+    padding: 10px 20px;
+
+}
+#anasayfaid1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 750px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#anasayfasablonid1 {
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+#resimid{
+    width:175px;
+}
+
+
+   
+
+#anasayfatasarimid {
+    width: 750px;
+    
+    
+        
+}
+#anasayfatbl1 {
+    width: 750px;
+}
+#tdanasafaid  {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+}

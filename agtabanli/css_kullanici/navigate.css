@@ -1,0 +1,66 @@
+﻿#navtableid {
+    height: 50px;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+td {
+    width: 150px;
+    
+}
+
+#tdanasafaid:hover {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+}
+
+
+#tdayinfirsatiid:hover {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+    color:aqua ;
+}
+
+
+#tdiletisimid:hover {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+}
+
+#tdhakkimizdaid:hover {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+}
+
+a {
+    color: black;
+}
+
+    a:visited {
+     text-decoration: none;
+
+    }
+
+    a:hover {
+        color: midnightblue;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: midnightblue;
+    }
+
+    a:link {
+        text-decoration: none;
+    }

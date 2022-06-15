@@ -1,0 +1,84 @@
+﻿a {
+    color: black;
+}
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: midnightblue;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: midnightblue;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+#table1:hover {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+    padding-left:15px;
+}
+
+#table2:hover {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+    padding-left: 15px;
+}
+
+#table3:hover {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+    padding-left: 15px;
+}
+
+#table4:hover {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+    padding-left: 15px;
+}
+
+#table5:hover {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+    padding-left: 15px;
+}
+
+#table6:hover {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+    padding-left: 15px;
+}
+
+#table7:hover {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+    padding-left: 15px;
+}
+.alltable {
+    height: 50px;
+    font-size: 22px;
+    width: 100%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}

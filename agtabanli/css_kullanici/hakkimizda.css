@@ -1,0 +1,30 @@
+﻿#tdhakkimizdaid {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+}
+#hakkimizdaid {
+  width:780px;
+}
+
+
+#htable1 {
+   width:520px;
+}
+#htable2 {
+    width: 240px;
+}
+
+#htable3 {
+    width: 240px;
+}
+
+#htable4 {
+    width: 520px;
+}
+
+.ima {
+    border-radius: 15px;
+   
+}

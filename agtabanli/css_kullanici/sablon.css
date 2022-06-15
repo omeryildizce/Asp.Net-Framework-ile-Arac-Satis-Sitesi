@@ -1,0 +1,70 @@
+﻿body {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    color: midnightblue;
+}
+                
+#mainid {
+    width: 1000px;
+    margin: auto;
+}
+
+#headerid {
+    width: 1000px;
+    height: 128px;
+    margin: auto;
+    margin-bottom: 20px;
+   }
+
+#navid {
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+/*#sliderid {
+    width: 1000px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+}*/
+#sectionid {
+    width: 1000px;
+    height: 1075px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#asideid {
+
+    width: 200px;
+    height: 1075px;
+    float: left;
+    text-align: justify;
+}
+
+#articleid {
+    width: 780px;
+    height: 1075px;
+    margin-left: 220px;
+    text-align: justify;
+}
+
+
+
+#footerid {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#footertbl{
+
+    width:1000px;
+}
+

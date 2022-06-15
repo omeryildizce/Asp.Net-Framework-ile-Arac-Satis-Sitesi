@@ -1,0 +1,8 @@
+﻿#modelid {
+    width: 780px;
+    height: 300px;
+    overflow: auto;
+    border: 3px solid aqua;
+    padding: 7px;
+    border-radius: 10px;
+}

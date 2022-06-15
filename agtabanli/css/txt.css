@@ -1,0 +1,18 @@
+﻿.ara {
+    border: none;
+    border-bottom: 2px solid aqua;
+    width: 400px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding:5px;
+}
+
+.but {
+    background-color: white;
+    border-color: aqua;
+    border-color: aqua;
+    border-radius: 25px;
+    width: 400px;
+    padding:5px;
+    
+}

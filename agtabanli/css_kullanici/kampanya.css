@@ -1,0 +1,35 @@
+﻿#ContentPlaceHolder1_Label6 {
+    font-size: x-large;
+    font-weight: bold;
+}
+#kampanyadivid {
+    font-family: Arial, Helvetica, sans-serif;
+   border-radius:10px;  
+    width: 780px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 5px;
+}
+#ContentPlaceHolder1_Image1 {
+    width: 640px;
+    height: 350px;
+    border-radius: 10px;
+}
+#tasarimid {
+    margin-top:10px;
+    padding: 10px 20px;
+}
+#tabledetayid{
+    width:780px;
+}
+
+
+
+#tdayinfirsatiid {
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+    color: aqua;
+}
+

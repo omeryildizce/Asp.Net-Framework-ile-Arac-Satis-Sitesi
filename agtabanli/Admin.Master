@@ -1,0 +1,244 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="agtabanli.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css_kullanici/header.css" rel="stylesheet" />
+    <link href="css/sablon.css" rel="stylesheet" />
+    <link href="css/navigate.css" rel="stylesheet" />
+    <link href="css/btn.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+
+        .auto-style2 {
+            width: 100%;
+        }
+
+        .auto-style3 {
+            height: 133px;
+        }
+
+        .auto-style7 {
+            height: 133px;
+            text-align: right;
+        }
+
+        .auto-style8 {
+            font-size: large;
+        }
+
+        .auto-style10 {
+            text-align: center;
+            height: 27px;
+        }
+
+        .auto-style11 {
+            height: 27px;
+        }
+        .auto-style12 {
+            font-size: 22px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="mainid" class="mainclass">
+            <header id="headerid" class="headerclass">
+                <table id="logotableid">
+                    <tr>
+                        <td id="logoid" class="auto-style3">
+                            <a href="kategori.aspx">
+                                <asp:Image ID="Image1" runat="server" ImageUrl="~/resimler/logo.png" Width="250px" Height="125px" />
+                            </a>
+
+                        </td>
+                        <td id="baslikid" class="auto-style3">
+                            <a href="kategori.aspx">
+
+                                <asp:Label ID="Label1" runat="server" Text="STAR CAR"></asp:Label>
+                            </a>
+                        </td>
+                        <td>
+
+                            <asp:Label ID="Label31" runat="server" Text="Hoşgeldiniz"></asp:Label>
+
+                            <br />
+                            <br />
+                            <asp:Label ID="Label23" runat="server" Text="Label"></asp:Label>
+                        </td>
+                        <td id="socialid" class="auto-style7">
+                            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Çıkış" CssClass="but" />
+
+
+                        </td>
+
+                    </tr>
+                </table>
+            </header>
+
+            <div id="sectionid" class="sectionclass">
+                <div style="width: 200px; height: 1000px; float: left; text-align: justify;">
+
+                    <table class="auto-style2">
+                        <tr>
+                            <td class="alltable"><strong>
+                                <asp:Label ID="Label15" runat="server" CssClass="auto-style8" Text="Panel"></asp:Label>
+                            </strong></td>
+                        </tr>
+                        <tr>
+                            <td  >&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td id="table1" class="alltable">
+                                <a href="kategori.aspx">
+                                    <asp:Label ID="Label22" runat="server" CssClass="table" Text="Kategoriler"></asp:Label>
+                                </a></td>
+                        </tr>
+                        <tr>
+                            <td id="table2" class="alltable">
+                                <a href="adminAraba.aspx">
+                                    <asp:Label ID="Label17" runat="server" CssClass="table" Text="Arabalar"></asp:Label>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="table3" class="alltable">
+                                <a href="adminKampanya.aspx">
+                                    <asp:Label ID="Label20" runat="server" CssClass="table" Text="Fırsatlar"></asp:Label>
+                                </a></td>
+                        </tr>
+                        <tr>
+                            <td id="table4" class="alltable">
+                                <a href="adminyorumlar.aspx">
+                                    <asp:Label ID="Label18" runat="server" CssClass="table" Text="Yorumlar"></asp:Label></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="table5" class="alltable">
+                                <a href="adminmesajlar.aspx">
+
+                                    <asp:Label ID="Label19" runat="server" CssClass="table" Text="Mesajlar"></asp:Label>
+                                </a></td>
+                        </tr>
+                        <tr>
+                            <td id="table6" class="alltable"><a href="adminhakkimizda.aspx">
+                                <asp:Label ID="Label21" runat="server" CssClass="auto-style12" Text="Hakkımızda"></asp:Label>
+                            </a></td>
+                        </tr>
+                        <tr>
+                            <td id="table7" class="alltable">
+                                <a href="adminpanel.aspx">
+                                    <asp:Label ID="Label24" runat="server" CssClass="table" Text="Admin Panel"></asp:Label>
+                                </a>
+
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div style="width: 780px; height: 1000px; text-align: justify; margin-left: 220px;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+
+            </div>
+
+            <footer id="footerid" class="footerclass">
+                <table id="footertbl">
+                    <tr>
+                        <td class="auto-style1">
+                            <asp:Label ID="Label6" runat="server" Text="Star Car"></asp:Label>
+                        </td>
+
+                        <td>
+
+                            <asp:Label ID="Label8" runat="server" Text="Site Haritası"></asp:Label>
+
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style10">
+                            <asp:Label ID="Label7" runat="server" Text="En uygun fiyatlı arabaların adresi"></asp:Label>
+                        </td>
+
+                        <td class="auto-style11">
+                            <a href="kategori.aspx">
+                                <asp:Label ID="Label25" runat="server" Text="Kategoriler"></asp:Label>
+                            </a>
+                        </td>
+                        <td class="auto-style11">
+                            <a href="adminAraba.aspx">
+                                <asp:Label ID="Label26" runat="server" Text="Arabalar"></asp:Label>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style1" rowspan="3">
+                            <a href="anasayfa.aspx">
+                                <asp:Image ID="Image2" runat="server" ImageUrl="~/resimler/logo.png" Width="200px" Height="100px" />
+                            </a>
+
+                        </td>
+
+                        <td>
+                            <a href="adminKampanya.aspx">
+                                <asp:Label ID="Label27" runat="server" Text="Fırsatlar"></asp:Label>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="adminyorumlar.aspx">
+                                <asp:Label ID="Label28" runat="server" Text="Yorumlar"></asp:Label>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <a href="adminhakkimizda.aspx">
+
+                                <asp:Label ID="Label29" runat="server" Text="Hakkımızda"></asp:Label>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="adminpanel.aspx">
+
+                                <asp:Label ID="Label30" runat="server" Text="Admin Panel"></asp:Label>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+
+                        <td>&nbsp;</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="auto-style1">
+                            <asp:Label ID="Label9" runat="server" Text="Copyright © 2021 Ömer YILDIZ"></asp:Label>
+                        </td>
+
+                    </tr>
+                </table>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,89 @@
+﻿.textbox {
+    width: 275px;
+    border: solid 1px #ccc;
+    height: 26px;
+    background: #5E768D;
+    background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D));
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0px 1px 0px #f2f2f2;
+    -webkit-box-shadow: 0px 1px 0px #F2F2F2;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #F2F2F2;
+    text-shadow: 0px -1px 0px #334F71;
+}
+
+    .textbox:focus {
+        background: #728EAA;
+        background: -moz-linear-gradient(top, #668099 0%, #728EAA 20%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#668099), color-stop(20%,#728EAA));
+        outline: 0;
+    }
+
+
+.ara {
+    border: none;
+    border-bottom: 2px solid aqua;
+    width: 400px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.but {
+    background-color: white;
+    border-color: red;
+    border-radius: 25px;
+    width:60px;
+    padding: 5px; 
+}
+.textbox1 {
+    width: 275px;
+    border: solid 1px #ccc;
+    height: 26px;
+    background: #5E768D;
+    background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D));
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0px 1px 0px #f2f2f2;
+    -webkit-box-shadow: 0px 1px 0px #F2F2F2;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #F2F2F2;
+    text-shadow: 0px -1px 0px #334F71;
+}
+.textbox1:focus {
+    background: #728EAA;
+    background: -moz-linear-gradient(top, #668099 0%, #728EAA 20%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#668099), color-stop(20%,#728EAA));
+    outline: 0;
+}
+.but1 {
+    background-color: white;
+    border-color: aqua;
+    border-radius: 25px;
+    width: 250px;
+    padding: 5px;
+    margin-left:5px;
+  
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: aqua;
+    border-radius: 10px;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #f90a23;
+        background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+    }

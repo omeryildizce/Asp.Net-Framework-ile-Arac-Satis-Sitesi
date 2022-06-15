@@ -1,0 +1,32 @@
+﻿#mainid {
+    width: 1000px;
+    margin: auto;
+}
+
+#headerid {
+    width: 1000px;
+    height: 128px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+#sectionid {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+
+#footerid {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#footertbl {
+    width: 1000px;
+}
